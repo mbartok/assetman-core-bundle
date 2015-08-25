@@ -1,0 +1,30 @@
+{
+  "name": "goldmann/assetman-core-bundle",
+  "type": "symfony-bundle",
+  "description": "Assetman Core Example",
+  "keywords": ["Symfony2", "bundle"],
+  "homepage": "https://github.com/stof/StofDoctrineExtensionsBundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matej Bartok",
+      "email": "mbartok@goldmann.sk"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.2",
+    "symfony/framework-bundle": "~2.1",
+    "knplabs/knp-menu-bundle": "~2.0",
+  },
+  "suggest": {
+    "doctrine/doctrine-bundle": "to use the ORM extensions",
+  },
+  "autoload": {
+    "psr-4": { "Goldmann\\Assetman\\CoreBundle\\": "" }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}
